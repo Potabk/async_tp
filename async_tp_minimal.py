@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal communication/GEMM overlap experiment; no vLLM or model download.
+"""Minimal communication/GEMM overlap experiment.
 
 CUDA, two GPUs (NCCL teaching implementation):
   torchrun --standalone --nproc-per-node=2 async_tp_minimal.py
